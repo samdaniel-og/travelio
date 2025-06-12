@@ -1,0 +1,223 @@
+
+/* nav bar here  */
+
+
+#nav_div {
+  background: rgba(135, 206, 235, 0.8);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  padding: 0.5em 2em;
+  border-radius: 0 0 20px 20px;
+  margin-bottom: 20px;
+}
+
+.navbar-brand img {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+
+.nav-item:hover .nav-link {
+  background-color: #ff6b00;
+  color: white;
+  box-shadow: 0 4px 12px rgba(255, 107, 0, 0.3);
+  
+}
+.navbar-toggler {
+  border: none;
+  background-color: #ff6b00;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+
+
+
+
+.nav-item:hover{
+    background-color: orange;
+    border-radius: 10%;
+}
+
+
+
+/* background image here */
+
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* body here */
+
+#h3_div{
+
+    background-color: white;
+    text-align: center;
+}
+
+#grid_div{
+    background-color: #ffffff;
+  margin: 30px 50px;
+  padding: 1em 1.5em;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    
+
+}
+#grid_div a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  border-radius: 12px;
+  font-weight: 500;
+  height: 100%;
+}
+
+#grid_div i {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  color: #ff6b00;
+}
+
+
+
+.selected{
+    background-color: #00bfff;
+  color: white;
+  font-weight: 600;
+  border-radius: 10%;
+}
+#grid_div .selected i {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  #grid_div .row {
+    flex-wrap: wrap;
+  }
+}
+
+.col:hover{
+    background-color: rgb(169, 223, 244);
+    border-radius: 10%;
+    font-size: larger;
+}
+
+.booking_form {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  padding: 25px;
+  margin-top: 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.form_label {
+   font-weight: 600;
+  color: #333;
+  font-size: 14px;
+  margin-bottom: 6px;
+  display: block;
+
+}
+
+.form_control {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.form_control:focus {
+  border-color: #ff6b00;
+  box-shadow: 0 0 0 3px rgba(255, 107, 0, 0.2);
+  outline: none;
+}
+
+.form_control, .form-select {
+  min-width: 180px;
+}
+
+.search_button {
+  background-color: skyblue; 
+  color: white; 
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(255, 107, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  margin: 20px auto 0px auto;
+}
+
+.search_button:hover {
+  background-color: rgb(106, 168, 193);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(255, 107, 0, 0.3);
+}
+
+
+
+/* footer here */
+
+.custom-footer {
+  background: rgba(135, 206, 235);
+  border-top: 4px solid #ff6600;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.custom-footer p,
+.custom-footer .footer-link,
+.custom-footer .contact-info {
+  color: #1a1a1a; 
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.custom-footer .footer-link {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.custom-footer .footer-link:hover {
+  color: #ff6600; 
+  text-decoration: underline;
+}
+
+.custom-footer .social-icons a {
+  color: #1a1a1a;
+  font-size: 1.3rem;
+  transition: color 0.3s ease;
+}
+
+.custom-footer .social-icons a:hover {
+  color: #ff6600;
+}
+
+.contact-info i {
+  margin-right: 6px;
+  color: #ff6600; 
+}
+
+@media (max-width: 767px) {
+  .custom-footer .contact-info {
+    margin-bottom: 10px;
+  }
+}
